@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav__link {
+    margin: 0 20px
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container__head {
+    text-align: center;
+    width: 100%;
+}
+
+.martin__info {
+    width: 100%;
+}
+
+.fishlist {
+    width: 60%;
+    height: 500px;
+    overflow: scroll;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: lightblue
+}
+
+.fishlist__head {
+    text-align: center;
+    width: 80%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fish {
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    background: white;
+    width: 80%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.fish img {
+    border-radius: 5px;
+}
+
+.tiplist {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: rgb(245, 161, 161);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tiplist h3 {
+    text-align: center;
+    background: white;
+    width: 80%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tip {
+    background: white;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.travelTips {
+    border: 1px solid black;
+    border-radius: 5px;
+    width :100%;
+    background: rgb(245, 161, 161);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.travelTips__header {
+    text-align: center;
+    flex-basis: 80%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
