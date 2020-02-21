@@ -1,0 +1,50 @@
+.tiplist {
+    width: 25%;
+    border: 3px solid #003459;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tiplist h3 {
+    color: white;
+    text-align: center;
+    background: #003459;
+    width: 80%;
+    height: fit-content;
+    border: 1px solid #003459;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.tip {
+    background: #003459;
+    color: white;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #003459;
+    border-radius: 3px;
+}
+
+.travelTips {
+    border: 1px solid #003459;
+    border-radius: 3px;
+    width :100%;
+    background: rgb(245, 161, 161);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.travelTips__header {
+    text-align: center;
+    flex-basis: 80%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+}
