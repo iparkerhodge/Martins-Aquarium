@@ -1,0 +1,50 @@
+table {
+    border: 2px solid #003459;
+    border-radius: 3px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+    list-style-image: square;
+}
+
+.packlist {
+    margin: 5px;
+}
+
+.travelTips {
+    background:white;
+    padding: 10px;
+    height: fit-content;
+    width: 80%;
+}
+
+.travelTips__header {
+    text-align: center;
+    color: #003459;
+    text-decoration: underline;
+}
+
+.protip {
+    width: 100%;
+    margin: 15px 0px;
+    color: #003459;
+}
+
+.protip h3 {
+    color: #003459;
+    padding-left: 10px;
+}
+
+.protip p {
+    text-align: center; 
+    text-decoration: underline wavy aqua;
+}

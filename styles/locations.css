@@ -1,0 +1,38 @@
+.locations {
+    border: 3px solid #003459;
+    border-radius: 3px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.locations__header {
+    width: 100%;
+   text-align: center;
+   color: #003459;
+}
+
+.loc {
+    width: 100%;
+}
+
+.loc__name {
+    width: 100%;
+   color: #003459;
+   margin-left: 10px;
+}
+
+.image__holder {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    width: 100%;
+}
+
+.loc__image {
+    width: 15em;
+    height: 15em;
+    padding: 0 10px;
+    border-radius: 30px;
+}

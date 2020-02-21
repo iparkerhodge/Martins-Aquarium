@@ -1,6 +1,8 @@
 @import "nav.css";
 @import "fish.css";
 @import "tips.css";
+@import "travel.css";
+@import "locations.css";
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,3 +23,12 @@
     color: #003459;
     text-decoration: overline;
 }
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+  }
