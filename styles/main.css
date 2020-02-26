@@ -25,10 +25,11 @@
 }
 
 .dot {
-    height: 10px;
-    width: 10px;
+    height: 6px;
+    width: 6px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     margin-right: 2px;
+    align-content: center;
   }
