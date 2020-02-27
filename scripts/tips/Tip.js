@@ -1,7 +1,7 @@
 const Tip = (tip) => {
     return `
     <section class="tip">
-        <h5>${tip.main}</h5>
+        <h5 class="tip__head">${tip.main}</h5>
         <p>${tip.reason}</p>
     </section>
     `

@@ -2,22 +2,25 @@
 @import "fish.css";
 @import "tips.css";
 
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.container {
-    background: rgb(254, 254, 254);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    top: 60px;
+* {
+    font-family: 'Spartan';
 }
 
 .container__head {
     text-align: center;
+    flex-basis: 100%;
+    color: #13293D;
+}
+
+.container {
     width: 100%;
-    color: #003459;
-    text-decoration: overline;
+    display: flex;
+    flex-wrap: wrap;
+    top: 400px;
+    justify-content: center;
+}
+
+button {
+    padding: 2px;
+    margin: 5px;
 }

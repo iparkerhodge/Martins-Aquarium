@@ -16,7 +16,7 @@ const Fish = (fish) => {
                 <div>Length: ${fish.size}</div>
                 <div>Food: ${fish.food.join(", ")}</div>
 
-                <button class="button--close">Close Dialog</button>
+                <button class="button--close">Close</button>
             </dialog>
         </div>
     `
