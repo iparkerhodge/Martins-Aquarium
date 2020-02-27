@@ -1,15 +1,16 @@
+import { useTip } from "./TipDataProvider.js"
+import Tip from "./Tip.js"
+
+
 const TipList = () => {
 
     // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector("insert selector here")
+    const contentElement = document.querySelector(".tiplist")
     const tips = useTip()
 
-    // Add to the existing HTML in the content element
-    contentElement.innerHTML += `
-        <section class="TipList">
-            All the Tip go here!
-        </section>
-    `
+    for (const tipObject of tips) {
+        contentElement.innerHTML += Tip(tipObject)
+    }
 }
 
 export default TipList

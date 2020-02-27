@@ -1,5 +1,5 @@
 const Tip = (tip) => {
-    return `\
+    return `
     <section class="tip">
         <h5>${tip.main}</h5>
         <p>${tip.reason}</p>
