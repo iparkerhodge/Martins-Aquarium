@@ -1,5 +1,5 @@
 import Fish from "./Fish.js"
-import { mostHolyFish, soldierFish, nonHolyFish } from './FishSorter.js'
+import { mostHolyFish, soldierFish, nonHolyFish, theHolyOne } from './FishSorter.js'
 
 /**
  *  FishList which renders individual fish objects as HTML
@@ -10,9 +10,13 @@ const FishList = () => {
     const holyFish = mostHolyFish()
     const soldiers = soldierFish()
     const regularFish = nonHolyFish()
+    const holyOne = theHolyOne()
     // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".fishlist")
 
+    for (const fishObject of holyOne) {
+        contentElement.innerHTML += Fish(fishObject)
+    }
     for (const fishObject of holyFish) {
         contentElement.innerHTML += Fish(fishObject)
     }

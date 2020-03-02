@@ -7,7 +7,7 @@ export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
     const holyFish = []
     for (const fish of fishes) {
-        if (fish.size % 3 === 0) {
+        if (fish.size % 3 === 0 && fish.size !== 777) {
             fish.category = "Holy Fish &#10024"
             holyFish.push(fish)
         }
@@ -37,4 +37,16 @@ export const nonHolyFish = () => {
         }
     }
     return regularFish
+}
+
+export const theHolyOne = () => {
+    // Any fish not a multiple of 3 or 5
+    const holyOne = []
+    for (const fish of fishes) {
+        if (fish.size === 777) {
+            fish.category = "THE MOST HIGH &#128591"
+            holyOne.push(fish)
+        }
+    }
+    return holyOne
 }

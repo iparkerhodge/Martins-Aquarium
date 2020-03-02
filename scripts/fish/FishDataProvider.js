@@ -6,6 +6,15 @@
  */
 const fishCollection = [
     {
+        name: "Jutz'kar",
+        species: "Holy Fish Jutz'kar",
+        size: 777,
+        location: "Off the coast of the Holy City of Tikal",
+        food: ["all unworthy beings"],
+        image: "https://pbs.twimg.com/profile_images/924320665053868038/Syp6usJs.jpg"
+    },
+    
+    {
         name: "Alfa",
         species: "Swordfish (X. gladius)",
         size: 118,
