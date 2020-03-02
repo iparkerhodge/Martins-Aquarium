@@ -8,6 +8,7 @@ export const mostHolyFish = () => {
     const holyFish = []
     for (const fish of fishes) {
         if (fish.size % 3 === 0) {
+            fish.category = "Holy Fish &#10024"
             holyFish.push(fish)
         }
     }
@@ -19,6 +20,7 @@ export const soldierFish = () => {
     const soldiers = []
     for (const fish of fishes) {
         if (fish.size % 5 === 0) {
+            fish.category = "Soldier &#127993"
             soldiers.push(fish)
         }
     }
@@ -30,6 +32,7 @@ export const nonHolyFish = () => {
     const regularFish = []
     for (const fish of fishes) {
         if (fish.size % 3 !== 0 && fish.size % 5 !== 0) {
+            fish.category = "Not Worthy &#10060"
             regularFish.push(fish)
         }
     }

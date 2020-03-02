@@ -21,6 +21,12 @@
 }
 
 button {
-    padding: 2px;
+    padding: 3px;
     margin: 5px;
+}
+
+button:hover {
+    background: #006494;
+    color: white;
+    border-radius: 5px;
 }

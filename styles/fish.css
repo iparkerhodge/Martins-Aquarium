@@ -15,3 +15,18 @@
     width: 200px;
     height: 200px;
 }
+
+.fish__name {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.fish__category {
+    font-size: 12px;
+    font-weight: bolder;
+    background: #13293D;
+    color: white;
+    border: 1px solid #13293D;
+    padding: 3px;
+    margin: 3px;
+}
